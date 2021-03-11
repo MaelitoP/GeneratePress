@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="none" viewBox="0 0 142 142" xmlns="http://www.w3.org/2000/svg">
+<circle transform="translate(.57227 .57178)" cx="70.428" cy="70.428" r="70.428" fill="#EFEFEF"/>
+<circle transform="translate(12.31 12.31)" cx="58.69" cy="58.69" r="58.69" fill="#fff"/>
+<path transform="translate(35.786 92.128) rotate(-45)" d="m29.88 0h-19.92s-9.96 0-9.96 9.96c0 9.96 9.96 9.96 9.96 9.96h29.88s9.96 0 9.96-9.96c0-3.0541-0.9365-5.1717-2.2351-6.64" stroke="#1E72BD" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<path transform="translate(56.914 71) rotate(-45)" d="m2.2352 16.6c-1.2987-1.4683-2.2352-3.5859-2.2352-6.64 0-9.96 9.96-9.96 9.96-9.96h29.88s9.96 0 9.96 9.96c0 9.96-9.96 9.96-9.96 9.96h-19.92" stroke="#1E72BD" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<rect transform="translate(32.612 26.388) rotate(45)" width="117.38" height="8.8035" fill="#fff"/>
+<path transform="translate(71 -12) rotate(45)" d="m117.38 58.69c0 32.414-26.277 58.69-58.69 58.69-32.414 0-58.69-26.277-58.69-58.69m117.38 0c0-32.414-26.277-58.69-58.69-58.69-32.414 0-58.69 26.276-58.69 58.69m117.38 0h-117.38" stroke="#1B212B" stroke-width="5"/>
+</svg>
