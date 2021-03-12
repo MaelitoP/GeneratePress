@@ -1,36 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400&display=swap');
+
 /* GENERAL */
+body {
+    margin: 0;
+    display: block;
+    line-height: 1.5;
+}
 a:link {
     text-decoration: none;
 }
 
 
 /* HEADER */
-#header {
-    height: 3.5em;
+.header {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    height: 98px;
     left: 0;
     line-height: 3.5em;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     z-index: 100;
 }
 
-#header nav {
-    position: absolute;
-    right: 1em;
-    top: 0;
+header nav {
+    margin-left: auto;
+    display: block;
+    padding: 0;
 }
 
-#header nav ul {
+header nav ul {
     margin: 0;
 }
 
-#header nav ul li {
+header nav ul li {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 2.5em;
+    font-family: 'Catamaran', sans-serif;
 }
 
-#header nav ul li a, #header nav ul li span {
+header nav ul li a, header nav ul li span {
     border: 0;
     color: inherit;
     display: inline-block;
@@ -40,11 +54,119 @@ a:link {
     text-transform: uppercase;
 }
 
-#header nav ul li.active > a, #header nav ul li.active > span {
+header nav ul li.active > a {
     color: #1e73be;
 }
 
 /* for subnav content */
-#header nav ul li > ul {
+header nav ul li > ul {
     display: none;
+}
+
+header #logo {
+    height: 100%;
+    width: 254px;
+    height: 48px;
+}
+
+header #logo img {
+    width: 254px;
+    height: 48px;
+}
+
+/* LOGIN */
+#body_login {
+    background: #f1f1f1;
+    min-width: 0;
+    color: #444;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+#login * {
+    margin: 0;
+    padding: 0;
+}
+
+#login {
+    width: 320px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+body #login form {
+    margin: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 26px 24px 46px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+    background: #ffffff;
+}
+
+body #logo_icon {
+    height: 84px;
+    margin: 0 auto 25px;
+    padding: 0;
+    background-image: url(../images/GP_Icon_Black.svg);
+    background-size: 84px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#login form .name label, .pass label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#login form .name, .pass {
+    margin-bottom: 0;
+}
+
+#login form .name input[type=text], .pass input[type=password] {
+    width: 100%;
+    background: #fbfbfb;
+    border-width: .0625rem;
+    border-radius: 5px;
+    padding: .1875rem .3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+    font-size: 24px;
+}
+
+#login label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#login form .remember-login {
+    font-weight: 400;
+    float: left;
+    margin-bottom: 0;
+}
+
+#login form .remember-login input[type=checkbox] {
+    background: #fbfbfb;
+}
+
+#login form .remember-login label {
+    line-height: 1.5;
+    vertical-align: baseline;
+}
+
+#login form .login-button #submit {
+    border-color: #007cba;
+    background-color: #007cba;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
