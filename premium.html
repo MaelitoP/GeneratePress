@@ -5,46 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Premium</title>
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <div><img class="logo" src="./images/logo.svg"></div>
-            <ul>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="#">PREMIUM</a></li>
-                <li><a href="#">SITE LIBRARY</a></li>
-                <li><a href="#">INSTALL</a></li>
-                <li><a href="#">HELP</a></li>
-                <li><a href="./login.html">LOG IN</a></li>
-            </ul>
-        </nav>
-        <div class="down-header">
-            <div class="text">
-                <h1>Take GeneratePress to the <br><strong>next level</strong> with GP Premium.</h1>
-                <div class="buttons">
-                    <a class="btn-get" href="#">Get it now</a>
-                    <a class="btn-module" href="#">See all modules</a>
-                </div>
-
+    <header id="head" class="page-header">
+        <div class="inside-header">
+            <div class="logo">
+                <a href="./index.html">
+                    <img class="header-image" src="./images/logo.svg" alt="GeneratePresse Logo">
+                </a>
             </div>
-            <div class="images">
-                <img src="./images/premium-hero.svg" alt="">
-            </div>
-        </div>
-        <div class="video-sec">
-            <img src="./images/video.svg">
-            <div class="video-text">
-                <h2>How does it works?</h2>
-                <p>Take a look at our quick 3-minute video.</p>
-                <a href="#">Watch</a>
-            </div>
+            <nav id="page-navigation" class="page-nav">
+                <ul class="nav-bar">
+                    <li class="nav-bar"><a href="./index.html">Home</a></li>
+                    <li class="nav-bar"><a href="./premium.html">Premium</a></li>
+                    <li class="nav-bar"><a href="">Site Librabry</a></li>
+                    <li class="nav-bar"><a href="">Install</a></li>
+                    <!-- Need to do HELP -->
+                    <li class="nav-bar"><a href="">Help</a></li>
+                    <li class="nav-bar"><a href="./login.html">Login</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
+    <div class="page-hero">
+
+        <div class="page-hero-inside">
+            <h1>Take GeneratePress to the <br>
+                <b>next level</b> with GP Premium.
+            </h1>
+
+            <div class="buttons-install-premium ">
+                <a href="" class="button green-button button-margin">Get it now</a>
+                <a href="" class="button no-color-button">See all modules</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./images/premium-hero.svg" alt="Hero Image">
+        </div>
+    </div>
+
+    <div class="explain-video container">
+        <div class="left-video">
+            <a href="https://vimeo.com/141487668">
+                <img src="./images/video.svg" alt="Explanation video">
+            </a>
+        </div>
+
+        <div class="right-video">
+            <div class="right-video-padding">
+                <h2>How does it work</h2>
+                <p>Take a look at our quick 3-minute video</p>
+                <p>
+                <div class="button-watch">
+                    <a class="button no-color-button" href="https://vimeo.com/141487668">Watch</a>
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+
     <div class="features">
         <h2>Explore our premium modules</h2>
         <p>Developed to save you time.</p>
@@ -150,73 +174,102 @@
 
         </div>
     </div>
-    <div class="gb-container">
-        <div class="gb-head">
-            <div class="gb-head-logo">
-                <span><img src="./images/premium.svg" alt=""></span>
-                <p>Premium</p>
-            </div>
-            <h3>Take GeneratePress to the next level.</h3>
-            <p class="trust">Trusted by <strong>70,000+</strong> happy customers.</p>
-        </div>
-        <div class="inner-gb">
+    <div class="premium-features-background">
+        <div class="premium-features container">
 
-            <div class="gb-left">
-                <h3>Yearly</h3>
-                <p class="price">$59</p>
-                <div class="yearly-features">
-                    <p>
-                        <img src="./images/tickb.png">All premium modules & features
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png">Full access to the Site Library
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png"><strong>1 year</strong> of updates
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png"><strong>1 year</strong> of premium support
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png">Use on up to <strong>500</strong> websites
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png"><strong>30 day</strong> money-back guarantee
-                    </p>
+            <div class="inside-premium-feature">
+
+
+                <div class="premium-feature-title">
+                    <img src="./images/logo-dark-asset.png" alt="GeneratePress Logo">
+                    <div><span>Premium</span></div>
+
                 </div>
-                <div class="yearly-buttons">
-                    <a class="btn-started" href="#">Get Started</a>
-                    <a class="btn-learn" href="#">Learn More</a>
+                <h3>Take GeneratePress to the next level.</h3>
+                <p>Trusted by <b>70,000+</b> happy customers.</p>
+
+                <div class="premium-features-columns">
+                    <div class="left-column">
+                        <div class="left-card">
+                            <div class="left-card-inside">
+                                <h3>Yearly</h3>
+                                <p class="money-writing"><mark class="dollar-sign">$</mark>59</p>
+
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span>All premium modules & features</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span>Full access to the Site Library</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span><b>1 year</b> of updates</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span><b>1 year</b> of premium support</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span>Use on up to <b>500</b> websites</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span><b>30 day</b> money-back gurantee</span>
+                                </div>
+
+                                <div class="start-learn-buttons">
+                                    <button class="button green-button">Get Started</button>
+                                    <button class="button white-button">Learn more</butt on>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="right-card">
+                            <div class="right-card-inside">
+                                <h3 class="lifetime-h3">Lifetime</h3>
+                                <p class="money-writing"><mark class="dollar-sign">$</mark>249</p>
+
+                                <p class="bottom-margin-30px"><b>One-time</b> payement</p>
+
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span>All premium modules & features</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span>Full access to the Site Library</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images//check-mark.png" alt="Check Mark">
+                                    <span><b>Lifetime</b> of updates</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span><b>Lifetime</b> of premium support</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span>Use on up to <b>500</b> websites</span>
+                                </div>
+                                <div class="check-mark">
+                                    <img src="./images/check-mark.png" alt="Check Mark">
+                                    <span><b>30 day</b> money-back gurantee</span>
+                                </div>
+
+                                <div class="start-learn-buttons">
+                                    <button class="button green-button">Get Started</button>
+                                    <button class="button white-button">Learn more</butt on>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="gb-right">
-                <h3>Yearly</h3>
-                <p class="price">$249</p>
-                <p><strong>One Time</strong> Payment</p>
-                <div class="yearly-features">
-                    <p>
-                        <img src="./images/tickb.png">All premium modules & features
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png">Full access to the Site Library
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png"><strong> 1 year </strong> of updates
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png"><strong> 1 year </strong> of premium support
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png">Use on up to <strong> 500 </strong> websites
-                    </p>
-                    <p>
-                        <img src="./images/tickb.png"><strong> 30 day </strong> money-back guarantee
-                    </p>
-                </div>
-                <div class="yearly-buttons">
-                    <a class="btn-started" href="#">Get Started</a>
-                    <a class="btn-learn" href="#">Learn More</a>
-                </div>
+
             </div>
         </div>
     </div>
@@ -278,106 +331,145 @@
             </div>
         </div>
     </div>
-    <div class="profiles">
-        <div class="head">
-            <h2>Our Users Love Us</h2>
-            <p>Over <strong>1000</strong> 5 star reviews on WordPress.org.</p>
-        </div>
-        <div class="inner-profiles">
-            <div>
-                <img src="./images/testimonials/brian.jpg">
-                <div>
-                    <p>As someone who demands both performance and usability, GeneratePress has truly been a complete
-                        transformation of the way I develop and design my WordPress sites. From ecommerce to blogs, it’s
-                        one theme to rule them all!</p>
-                    <h6>Brian Jackson, Co-founder, forgemedia</h6>
+
+    <div class="team-info container">
+        <h2>Our User Love Us</h2>
+        <p>Over <b>1000</b> 5 star reviews on WordPress.org.</p>
+
+        <div class="team-inside">
+            <div class="card-person">
+                <div class="team-person-description">
+                    <div class="person">
+                        <img src="./images/troy.jpg" alt="Troy Dean">
+                        <div class="person-description">
+                            <p>I’m always looking for ways to optimise my processes and improve efficiencies across the
+                                team. GeneratePress has become a crucial part of our technology stack. And I know
+                                hundreds of our WP Elevation members love it too.</p>
+                            <span class="person-name">
+                                Troy Dean, Founder of <a class="link-in-text" href="https://www.wpelevation.com">WP
+                                    Elevation</a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="./images/testimonials/kim-doyal.jpg">
-                <div>
-                    <p>As a former site builder and previous Genesis user, I am in LOVE with GeneratePress. I haven't
-                        built sites in a while but knew I wanted something easy, clean, and compatible with Beaver
-                        Builder. The free version is great, but the pro
-                        version is a steal for what it does. My new favorite!</p>
-                    <h6>Kim Doyal</h6>
+
+            <div class="card-person">
+                <div class="person">
+                    <img src="./images/testimonials/brian.jpg" alt="Brian Jackson">
+                    <div class="person-description">
+                        <p>As someone who demands both performance and usability, GeneratePress has truly been a
+                            complete
+                            transformation of the way I develop and design my WordPress sites. From ecommerce to blogs,
+                            it’s
+                            one theme to rule them all!</p>
+                        <span class="person-name"><a href="https://twitter.com/brianleejackson">Brian Jackson</a>,
+                            Co-Founder, <a href="https://forgemedia.io/">forgemedia</a></span>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="./images/testimonials/barna.jpg">
-                <div>
-                    <p>GeneratePress is my go to theme for all of my own and client projects. It has proven to be a
-                        fast, lightweight and reliable foundation for the websites I build. With GP Premium, my clients
-                        were always happy how easy it is to change
-                        important parts without relying on others. A solid foundation for your website with a solid team
-                        behind it!</p>
-                    <h6>Barna Buxbaum</h6>
+            <div class="card-person">
+                <div class="person">
+                    <img src="./images/testimonials/kim-doyal.jpg" alt="Kim Doyal">
+                    <div class="person-description">
+                        <p>As a former site builder and previous Genesis user, I am in LOVE with GeneratePress. I
+                            haven't
+                            built sites in a while but knew I wanted something easy, clean, and compatible with Beaver
+                            Builder. The free version is great, but the pro
+                            version is a steal for what it does. My new favorite!</p>
+                        <span><a href="https://kimdoyal.com">Kim Doyal</a></span>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="./images/testimonials/troy.jpg">
-                <div>
-                    <p>I’m always looking for ways to optimise my processes and improve efficiencies across the team.
-                        GeneratePress has become a crucial part of our technology stack. And I know hundreds of our WP
-                        Elevation members love it too.</p>
-                    <h6>Troy Dean, Founder of WP Elevation</h6>
+            <div class="card-person">
+                <div class="person">
+                    <img src="./images/testimonials/dave.jpg" alt="Dave Foy">
+                    <div class="person-description">
+                        <p>I use GeneratePress for every WordPress site I build and heartily recommend it to everyone.
+                            It’s rock solid and super fast, simple but powerful. And I 100% trust Tom the developer to
+                            always do the right thing.</p>
+                        <span>Dave Foy, WordPress educator, <a href="https://www.designbuildweb.co">Design Build
+                                Web</a></span>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="inner-footer">
-            <div>
-                <h2>GENERATEPRESS</h2>
-                <ul>
-                    <li>About</li>
-                    <li>Premium</li>
-                    <li>Site Libraray</li>
-                    <li>Gutenberg</li>
-                    <li>Affiliates</li>
-                    <li>Reviews</li>
-                    <li>Brand Assets</li>
-                    <li>Blog</li>
-                    <li>We're Hiring</li>
-                </ul>
-            </div>
-            <div>
-                <h2>SUPPORT</h2>
-                <ul>
-                    <li>Documentation</li>
-                    <li>Contact Us</li>
-                    <li>Support Forums</li>
-                    <li>Fastest Wordpress Themes</li>
-                    <li>Changelogs</li>
-                    <li>Legal</li>
-                    <li>Donate</li>
-                    <li>Translate</li>
-                </ul>
-            </div>
-            <div>
-                <h2>POPOLAR FARQS</h2>
-                <ul>
-                    <li>Install GeneratePress</li>
-                    <li>Installing GP Premium</li>
-                    <li>Missing style.css</li>
-                    <li>Plugin Install Failed</li>
-                    <li>Adding CSS</li>
-                    <li>Adding PHP</li>
-                    <li>WordPress Hosting</li>
-                </ul>
-            </div>
-            <div>
-                <h2>SOCIAL</h2>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Wordpress</li>
-                    <li>Github</li>
-                </ul>
             </div>
 
         </div>
-    </footer>
+    </div>
+
+    <div class="page-footer">
+        <div class="footer1">
+            <div class="footer-info">
+                <div class="footer-GeneratePress">
+                    <h2><b>GeneratePress</b></h2>
+
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Premium</a></li>
+                        <li><a href="">Site Library</a></li>
+                        <li><a href="">Gutenberg</a></li>
+                        <li><a href="">Affiliates</a></li>
+                        <li><a href="">Reviews</a></li>
+                        <li><a href="">Brand Assets</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">We're hiring!</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-Support">
+
+                    <h2><b>Support</b></h2>
+
+                    <ul>
+                        <li><a href="">Documentation</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Support Forums</a></li>
+                        <li><a href="">Fastest WordPress Theme</a></li>
+                        <li><a href="">Changelogs</a></li>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Donate</a></li>
+                        <li><a href="">Translate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-PopularFAQs">
+                    <h2><b>Popular-Faqs</b></h2>
+
+                    <ul>
+                        <li><a href="">Install GeneratePress</a></li>
+                        <li><a href="">Installing GP Premium</a></li>
+                        <li><a href="">Missing style.css</a></li>
+                        <li><a href="">PLugin Install Failed</a></li>
+                        <li><a href="">Adding CSS</a></li>
+                        <li><a href="">Adding PHP</a></li>
+                        <li><a href="">WordPress Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-Social">
+
+                    <h2><b>Social</b></h2>
+
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">WordPress</a></li>
+                        <li><a href="">GitHub</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div class="footer2-inside">
+                <div>
+                    Made with
+                    <img src="./images/love.svg" alt="Love Emote">
+                    on Vancouver Island
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
