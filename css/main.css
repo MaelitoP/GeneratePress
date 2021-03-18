@@ -96,13 +96,11 @@ header #logo img {
 }
 
 body #login form {
-    margin: 0;
-    margin-left: 0;
-    margin-top: 20px;
     padding: 26px 24px 46px;
     border: 1px solid #ccd0d4;
     box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
     background: #ffffff;
+    height: 190px;
 }
 
 body #logo_icon {
@@ -122,16 +120,11 @@ body #logo_icon {
     margin-bottom: 3px;
 }
 
-#login form .name, .pass {
-    margin-bottom: 0;
-}
-
-#login form .name input[type=text], .pass input[type=password] {
+#login form input[type=text], input[type=password] {
     width: 100%;
     background: #fbfbfb;
     border-width: .0625rem;
     border-radius: 5px;
-    padding: .1875rem .3125rem;
     margin: 0 6px 16px 0;
     min-height: 40px;
     max-height: none;
@@ -147,6 +140,7 @@ body #logo_icon {
 
 #login form .remember-login {
     font-weight: 400;
+    margin: 8px 0;
     float: left;
     margin-bottom: 0;
 }
@@ -164,9 +158,27 @@ body #logo_icon {
     border-color: #007cba;
     background-color: #007cba;
     color: white;
-    padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    border-radius: 5px;
+    width: 25%;
+    float: right;
+    height: 32px;
+}
+
+#login #buttons {
+    margin-top: 5px;
+}
+
+#login .forget-password {
+    font-weight: 400;
+    padding: 0 24px 0;
+    margin: 24px 0 0 0;
+}
+
+#login .return_home {
+    margin: 16px 0;
+    font-size: 13px;
+    padding: 0 24px 0;
 }

@@ -1,0 +1,645 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Catamaran GP", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/bg.svg");
+    height: 170vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    padding: 25px;
+}
+
+.logo {
+    width: 85%;
+    height: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    float: right;
+    margin-left: 300px;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #1b212b;
+}
+
+header nav ul li a:hover {
+    color: rgb(56, 56, 241);
+}
+
+.down-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 50px;
+}
+
+.down-header .text {
+    display: block;
+    color: #1b212b;
+}
+
+.text {
+    padding: 120px 0px;
+}
+
+.text h1 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.5em;
+    color: #1b212b;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    max-width: 450px;
+    color: #1b212b;
+    margin-top: 60px;
+}
+
+.btn-install {
+    text-decoration: none;
+    color: white;
+    background-color: #5ea337;
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    padding: 12px 80px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-premium {
+    text-decoration: none;
+    color: #1b212b;
+    background-color: transparent;
+    border: 1px solid #1b212b;
+    padding: 12px 80px;
+    border-radius: 5px;
+}
+
+.btn-install:hover {
+    color: #1b212b;
+    background-color: rgb(228, 113, 36);
+}
+
+.btn-premium:hover {
+    background-color: #7eb8e7;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.stats strong {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.downloads {
+    font-size: 18px;
+    color: #1b212b;
+}
+
+.stars img {
+    width: 70%;
+    height: auto;
+}
+
+.images img {
+    width: 150%;
+    height: auto;
+}
+
+.video-sec {
+    padding: 10px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+}
+
+.video-text h2 {
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-transform: none;
+}
+
+.video-text {
+    margin-top: 50px;
+    display: block;
+}
+
+.video-text p {
+    margin-bottom: 1.5em;
+}
+
+.video-text a {
+    text-decoration: none;
+    color: #1b212b;
+    background-color: transparent;
+    border: 1px solid #1b212b;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.video-text a:hover {
+    background-color: #7eb8e7;
+}
+
+.features {
+    display: block;
+    text-align: center;
+}
+
+.features h2 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.features p {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.inner-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.inner-features div h3 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.inner-features img {
+    margin-bottom: 20px;
+    width: 40%;
+    height: auto;
+}
+
+.inner-features p {
+    font-size: 18px;
+}
+
+.gb-container {
+    background-image: url(https://generatepress.com/wp-content/uploads/2020/06/premium-fill.svg);
+    background-color: #1e72bd;
+    height: 160vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.inner-gb {
+    padding: 50px 50px;
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.gb-left {
+    background-color: white;
+    padding: 50px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    line-height: 1.5rem;
+    border-radius: 5px;
+}
+
+.gb-right {
+    background-color: white;
+    padding: 50px;
+    width: 340px;
+    display: block;
+    text-align: center;
+    line-height: 1.5rem;
+    border-radius: 5px;
+}
+
+.gb-left h3,
+.gb-right h3 {
+    color: #fff;
+    background-color: #63717c;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.gb-left .price,
+.gb-right .price {
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1em;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.yearly-features p {
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.yearly-features p img {
+    margin-right: 10px;
+}
+
+.yearly-buttons {
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.btn-started {
+    text-decoration: none;
+    color: white;
+    background-color: #5ea337;
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.btn-started:hover {
+    color: #1b212b;
+    background-color: rgb(228, 113, 36);
+}
+
+.btn-learn {
+    text-decoration: none;
+    color: #1b212b;
+    background-color: transparent;
+    border: 1px solid #1b212b;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.btn-learn:hover {
+    background-color: #7eb8e7;
+}
+
+.profiles {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.head h2 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.head p {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.profiles {
+    margin: 0 150px;
+}
+
+.inner-profiles {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inner-profiles div {
+    margin-left: 60px;
+    margin-bottom: 60px;
+    display: flex;
+}
+
+.inner-profiles div img {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+}
+
+.inner-profiles div div {
+    display: block;
+    text-align: left;
+}
+
+.inner-profiles div div h6 {
+    font-weight: 100;
+}
+
+.inner-profiles div div p {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1b212b;
+    padding: 80px 40px 80px 40px;
+}
+
+.inner-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+}
+
+.inner-footer div h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+
+.inner-footer div ul {
+    list-style-type: none;
+    color: white;
+    padding-left: 0;
+}
+
+.inner-footer div ul li {
+    margin-bottom: 10px;
+}
+
+.btn-get {
+    text-decoration: none;
+    color: white;
+    background-color: #5ea337;
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    padding: 12px 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-module {
+    text-decoration: none;
+    color: #1b212b;
+    background-color: transparent;
+    border: 1px solid #1b212b;
+    padding: 12px 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-get:hover {
+    color: #1b212b;
+    background-color: rgb(228, 113, 36);
+}
+
+.btn-module:hover {
+    background-color: #7eb8e7;
+}
+
+.i-text {
+    margin-top: 0 !important;
+    margin-bottom: 40px !important;
+}
+
+.i-head {
+    margin-bottom: 30px !important;
+}
+
+.inner-features div img {
+    width: 140px !important;
+    height: 140px !important;
+}
+
+.ft div {
+    margin-bottom: 100px;
+}
+
+.gb-container {
+    display: block;
+    text-align: center;
+}
+
+.gb-head-logo {
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    margin-left: 480px;
+}
+
+.gb-head-logo span img {
+    width: 70px;
+    height: 70px;
+}
+
+.gb-head-logo p {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    margin: -5px;
+    margin-left: 20px;
+}
+
+.gb-head h3 {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 200;
+}
+
+.gb-head .trust {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    color: white;
+}
+
+.faqs {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    text-align: center;
+}
+
+.faqs h2 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.faqs p {
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+.inner-faqs {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.inner-faqs div {
+    text-align: left;
+    display: block;
+}
+
+.inner-faqs div h3 {
+    color: #fff;
+    background-color: #63717c;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.inner-faqs div h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1.2rem;
+    font-weight: 400;
+    text-transform: none;
+}
+
+/* LOGIN */
+#body_login {
+    background: #f1f1f1;
+    min-width: 0;
+    color: #444;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+#login * {
+    margin: 0;
+    padding: 0;
+}
+
+#login {
+    width: 320px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+body #login form {
+    padding: 26px 24px 46px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+    background: #ffffff;
+    height: 190px;
+}
+
+body #logo_icon {
+    height: 84px;
+    margin: 0 auto 25px;
+    padding: 0;
+    background-image: url(../images/GP_Icon_Black.svg);
+    background-size: 84px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#login form .name label, .pass label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#login form input[type=text], input[type=password] {
+    width: 100%;
+    background: #fbfbfb;
+    border-width: .0625rem;
+    border-radius: 5px;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+    font-size: 24px;
+}
+
+#login label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#login form .remember-login {
+    font-weight: 400;
+    margin: 8px 0;
+    float: left;
+    margin-bottom: 0;
+}
+
+#login form .remember-login input[type=checkbox] {
+    background: #fbfbfb;
+}
+
+#login form .remember-login label {
+    line-height: 1.5;
+    vertical-align: baseline;
+}
+
+#login form .login-button #submit {
+    border-color: #007cba;
+    background-color: #007cba;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 25%;
+    float: right;
+    height: 32px;
+}
+
+#login #buttons {
+    margin-top: 5px;
+}
+
+#login .forget-password {
+    font-weight: 400;
+    padding: 0 24px 0;
+    margin: 24px 0 0 0;
+}
+
+#login .return_home {
+    margin: 16px 0;
+    font-size: 13px;
+    padding: 0 24px 0;
+}
+
+a:link {
+    text-decoration: none;
+}

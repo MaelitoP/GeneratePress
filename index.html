@@ -5,121 +5,314 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/main.css">
-    <title>Home - GeneratePress</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home</title>
 </head>
 
 <body>
     <header>
-        <div class="inside-header">
-            <div class="logo">
-                <a href="./index.html">
-                    <img src="./images/logo.svg" alt="GeneratePresse Logo" width="254" height="48">
-                </a>
+        <nav>
+            <div><img class="logo" src="./images/logo.svg"></div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="./premium.html">PREMIUM</a></li>
+                <li><a href="#">SITE LIBRARY</a></li>
+                <li><a href="#">INSTALL</a></li>
+                <li><a href="#">HELP</a></li>
+                <li><a href="./login.html">LOG IN</a></li>
+            </ul>
+        </nav>
+        <div class="down-header">
+            <div class="text">
+                <h1>The perfect <strong>lightweight</strong><br>theme for your next project.</h1>
+                <div class="buttons">
+                    <a class="btn-install" href="#">Install</a>
+                    <a class="btn-premium" href="#">Premium</a>
+                </div>
+                <div class="stats">
+                    <div class="downloads">
+                        <strong>3,272,558+</strong><br>Downloads
+                    </div>
+                    <div class="stars">
+                        <strong>1000+</strong> <br>
+                        <img src="./images/stars.svg">
+                    </div>
+                    <div class="a-websites">
+                        <strong>3000,000+</strong><br>Active Websites
+                    </div>
+                    <div class="customers">
+                        <strong>70,000+</strong><br>Happy Customers
+                    </div>
+
+                </div>
             </div>
-            <nav id="page-navigation" class="page-nav">
-                <ul class="nav-bar">
-                    <li class="nav-bar"><a href="./index.html">Home</a></li>
-                    <li class="nav-bar"><a href="">Premium</a></li>
-                    <li class="nav-bar"><a href="">Site Library</a></li>
-                    <li class="nav-bar"><a href="">Install</a></li>
-                    <!-- Need to do HELP -->
-                    <li class="nav-bar"><a href="">Help</a></li>
-                    <li class="nav-bar"><a href="">Login</a></li>
-                </ul>
-            </nav>
+            <div class="images">
+                <img src="./images/home-hero.svg" alt="">
+            </div>
+        </div>
+        <div class="video-sec">
+            <img src="./images/video.svg">
+            <div class="video-text">
+                <h2>How does it works?</h2>
+                <p>Take a look at our quick 3-minute video.</p>
+                <a href="#">Watch</a>
+            </div>
         </div>
     </header>
-    <div class="page-content">
-        <div class="page-hero">
-            <img src="./images/home-hero.svg" alt="GeneratePress Hero" class="hero-image">
-            <div class="page-hero-inside">
-                <div class="left">
-                    <h1>The perfect <b>lightweight</b> theme for your next project.</h1>
-
-                    <div class="buttons-install-premium">
-                        <a href="#" class="button">Install</button>
-                            <a href="/premium.html" class="button no-color">Premium</button>
-                    </div>
-
-                    <div class="stats">
-                        <div class="downloads"><b>3,255,170+</b><br>Downloads</div>
-                        <div class="stars">
-                            <b>1000+</b><br>
-                            <img src="/stars.svg" alt="Five Stars" width="98" height="17">
-                        </div>
-                        <div class="active-webistes"><b>300,000+</b><br>Active webistes</div>
-                        <div class="happy-customers"><b>70,000+</b><br>Happy customers</div>
-                    </div>
-                </div>
+    <div class="features">
+        <h2>Performance Focused</h2>
+        <p>We take speed, security & usability seriously.</p>
+        <div class="inner-features">
+            <div>
+                <h3>SECURE & STABLE</h3>
+                <img src="./images/icons/security.svg">
+                <p>Our code has been independently reviewed by leaders in the WordPress community, and uses the latest
+                    and most stable coding standards.</p>
+            </div>
+            <div>
+                <h3>LESS THAN 10KB</h3>
+                <img src="./images/icons/light.svg">
+                <p>We believe your sites should start with the smallest footprint possible. That’s why a default
+                    GeneratePress install adds less than 10kb to your page size.</p>
+            </div>
+            <div>
+                <h3>TOP-TIER SPEEDS</h3>
+                <img src="./images/icons/speed.svg">
+                <p>Speed is one of the most important aspects of your website. Thanks to our tiny footprint and clean
+                    code, we make sure you start off as fast as possible.</p>
+            </div>
+            <div>
+                <h3>NO DEPENDENCIES</h3>
+                <img src="./images/icons/dependencies.svg">
+                <p>If it’s not needed, we don’t load it. That includes jQuery, which we ditched for clean, vanilla
+                    javascript. No more render blocking issues!</p>
+            </div>
+            <div>
+                <h3>SEARCH ENGINE OPTIMIZED</h3>
+                <img src="./images/icons/seo.svg">
+                <p>Validated HTML, built in schema.org structured data and lightning fast load times. We give you a head
+                    start with search engines before you even add content.</p>
+            </div>
+            <div>
+                <h3>ACCESSIBILITY READY</h3>
+                <img src="./images/icons/accessibility.svg">
+                <p>Accessibility is crucial to your website. We follow WCAG 2.0 standards to make sure no one is left
+                    out when browsing your website.</p>
             </div>
         </div>
-
-        <div class="explain-video">
-            <div class="left">
-                <a href="https://vimeo.com/141487668">
-                    <img src="/video.svg" alt="Explanation video">
-                </a>
+    </div>
+    <div class="gb-container">
+        <div class="gb-head">
+            <div class="gb-head-logo">
+                <span><img src="./images/premium.svg" alt=""></span>
+                <p>Premium</p>
             </div>
-
-            <div class="right">
-                <h2>How does it work</h2>
-                <p>Take a look at our quick 3-minute video</p>
-                <p>
-                <div class="button-watch">
-                    <a class="button no-color" href="https://vimeo.com/141487668">Watch</a>
-                </div>
-                </p>
-            </div>
+            <h3>Take GeneratePress to the next level.</h3>
+            <p class="trust">Trusted by <strong>70,000+</strong> happy customers.</p>
         </div>
+        <div class="inner-gb">
 
-        <div class="features">
-            <h2>Performance Focused</h2>
-            <p>We take speed, security & usability seriously</p>
-
-            <div class="features-inside">
-                <div class="card">
-                    <h3>SECURE & STABLE</h3>
-                    <img src="/security.svg" alt="Secure and Stable" width="144" height="140">
-                    <p>Our code has been independently reviewed by leaders in the WordPress community, and uses the
-                        latest and most stable coding standards.</p>
-                </div>
-                <div class="card">
-                    <h3>LESS THAN 10KB</h3>
-                    <img src="/feather.svg" alt="Light" width="144" height="140">
-                    <p>We believe your sites should start with the smallest footprint possible. That’s why a default
-                        GeneratePress install adds
-                        <a class="light-link" href="#">less than 10kb</a>
-                        to your page size.
+            <div class="gb-left">
+                <h3>Yearly</h3>
+                <p class="price">$59</p>
+                <div class="yearly-features">
+                    <p>
+                        <img src="./images/tickb.png">All premium modules & features
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png">Full access to the Site Library
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png"><strong>1 year</strong> of updates
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png"><strong>1 year</strong> of premium support
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png">Use on up to <strong>500</strong> websites
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png"><strong>30 day</strong> money-back guarantee
                     </p>
                 </div>
-                <div class="card">
-                    <h3>TOP-TIER SPEEDS</h3>
-                    <img src="/speed.svg" alt="Top-Tier Speeds" width="144" height="140">
-                    <p>Speed is one of the most important aspects of your website. Thanks to our tiny footprint and
-                        clean code, we make sure you start off as fast as possible.</p>
+                <div class="yearly-buttons">
+                    <a class="btn-started" href="#">Get Started</a>
+                    <a class="btn-learn" href="#">Learn More</a>
                 </div>
-                <div class="card">
-                    <h3>NO DEPENDENCIES</h3>
-                    <img src="/dependencies.svg" alt="No dependencies" width="144" height="140">
-                    <P>If it’s not needed, we don’t load it. That includes jQuery, which we ditched for clean, vanilla
-                        javascript. No more render blocking issues!</P>
+            </div>
+            <div class="gb-right">
+                <h3>Yearly</h3>
+                <p class="price">$249</p>
+                <p><strong>One Time</strong> Payment</p>
+                <div class="yearly-features">
+                    <p>
+                        <img src="./images/tickb.png">All premium modules & features
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png">Full access to the Site Library
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png"><strong> 1 year </strong> of updates
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png"><strong> 1 year </strong> of premium support
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png">Use on up to <strong> 500 </strong> websites
+                    </p>
+                    <p>
+                        <img src="./images/tickb.png"><strong> 30 day </strong> money-back guarantee
+                    </p>
                 </div>
-                <div class="card">
-                    <h3>SEARCH ENGINE OPTIMIZED</h3>
-                    <img src="/seo.svg" alt="Search engine optimized" width="144" height="140">
-                    <p>Validated HTML, built in schema.org structured data and lightning fast load times. We give you a
-                        head start with search engines before you even add content./p>
-                </div>
-                <div class="card">
-                    <h3>ACCESSIBILITY READY</h3>
-                    <img src="/accessibility.svg" alt="Accessibility ready" width="144" height="140">
-                    <p>Accessibility is crucial to your website. We follow WCAG 2.0 standards to make sure no one is
-                        left out when browsing your website.</p>
+                <div class="yearly-buttons">
+                    <a class="btn-started" href="#">Get Started</a>
+                    <a class="btn-learn" href="#">Learn More</a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="features">
+        <h2>User Friendly Features</h2>
+        <p>Take full control of your website.</p>
+        <div class="inner-features">
+            <div>
+                <h3>COLORS & TYPOGRAPHY</h3>
+                <img src="./images/icons/colors.svg">
+                <p>Adjust the theme colors and typography directly in the Customizer. Our premium version extends this,
+                    giving you styling options for nearly every visible element.</p>
+            </div>
+            <div>
+                <h3>LAYOUT CONTROL</h3>
+                <img src="./images/icons/layout.svg">
+                <p>Take control of your site layout on desktop and mobile with our layout controls, including things
+                    like padding, margins, sidebar layouts and much more!</p>
+            </div>
+            <div>
+                <h3>PAGE BUILDER FRIENDLY</h3>
+                <img src="./images/icons/page-builder.svg">
+                <p>Have a favorite page builder? It will work great with GeneratePress. Let your page builder take
+                    control by using our per page layout controls.</p>
+            </div>
+            <div>
+                <h3>PLUGIN COMPATIBLE</h3>
+                <img src="./images/icons/plugin.svg">
+                <p>Thanks to our obsession with WordPress coding standards, you can rest easy knowing your favorite
+                    plugins will play nice with our theme.</p>
+            </div>
+            <div>
+                <h3>HOOKS & FILTERS</h3>
+                <img src="./images/icons/hooks.svg">
+                <p>Need to extend something that doesn’t have an option? There’s a filter for that. There’s no limit to
+                    what you can do with our extensive list of filters and hooks.</p>
+            </div>
+            <div>
+                <h3>TRANSLATION & RTL</h3>
+                <img src="./images/icons/translation.svg">
+                <p>Our theme is translated into over 20 languages and counting thanks to contributions from our amazing
+                    community. We also fully support RTL languages.</p>
+            </div>
+        </div>
+    </div>
+    <div class="profiles">
+        <div class="head">
+            <h2>Our Users Love Us</h2>
+            <p>Over <strong>1000</strong> 5 star reviews on WordPress.org.</p>
+        </div>
+        <div class="inner-profiles">
+            <div>
+                <img src="./images/testimonials/brian.jpg">
+                <div>
+                    <p>As someone who demands both performance and usability, GeneratePress has truly been a complete
+                        transformation of the way I develop and design my WordPress sites. From ecommerce to blogs, it’s
+                        one theme to rule them all!</p>
+                    <h6>Brian Jackson, Co-founder, forgemedia</h6>
+                </div>
+            </div>
+            <div>
+                <img src="./images/testimonials/kim-doyal.jpg">
+                <div>
+                    <p>As a former site builder and previous Genesis user, I am in LOVE with GeneratePress. I haven't
+                        built sites in a while but knew I wanted something easy, clean, and compatible with Beaver
+                        Builder. The free version is great, but the pro
+                        version is a steal for what it does. My new favorite!</p>
+                    <h6>Kim Doyal</h6>
+                </div>
+            </div>
+            <div>
+                <img src="./images/testimonials/barna.jpg">
+                <div>
+                    <p>GeneratePress is my go to theme for all of my own and client projects. It has proven to be a
+                        fast, lightweight and reliable foundation for the websites I build. With GP Premium, my clients
+                        were always happy how easy it is to change
+                        important parts without relying on others. A solid foundation for your website with a solid team
+                        behind it!</p>
+                    <h6>Barna Buxbaum</h6>
+                </div>
+            </div>
+            <div>
+                <img src="./images/testimonials/troy.jpg">
+                <div>
+                    <p>I’m always looking for ways to optimise my processes and improve efficiencies across the team.
+                        GeneratePress has become a crucial part of our technology stack. And I know hundreds of our WP
+                        Elevation members love it too.</p>
+                    <h6>Troy Dean, Founder of WP Elevation</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="inner-footer">
+            <div>
+                <h2>GENERATEPRESS</h2>
+                <ul>
+                    <li>About</li>
+                    <li>Premium</li>
+                    <li>Site Libraray</li>
+                    <li>Gutenberg</li>
+                    <li>Affiliates</li>
+                    <li>Reviews</li>
+                    <li>Brand Assets</li>
+                    <li>Blog</li>
+                    <li>We're Hiring</li>
+                </ul>
+            </div>
+            <div>
+                <h2>SUPPORT</h2>
+                <ul>
+                    <li>Documentation</li>
+                    <li>Contact Us</li>
+                    <li>Support Forums</li>
+                    <li>Fastest Wordpress Themes</li>
+                    <li>Changelogs</li>
+                    <li>Legal</li>
+                    <li>Donate</li>
+                    <li>Translate</li>
+                </ul>
+            </div>
+            <div>
+                <h2>POPOLAR FARQS</h2>
+                <ul>
+                    <li>Install GeneratePress</li>
+                    <li>Installing GP Premium</li>
+                    <li>Missing style.css</li>
+                    <li>Plugin Install Failed</li>
+                    <li>Adding CSS</li>
+                    <li>Adding PHP</li>
+                    <li>WordPress Hosting</li>
+                </ul>
+            </div>
+            <div>
+                <h2>SOCIAL</h2>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Wordpress</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
